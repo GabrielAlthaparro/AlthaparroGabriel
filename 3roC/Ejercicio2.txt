@@ -1,0 +1,18 @@
+Programa Ejercicio2
+Variables
+  nota1: numérico entero
+  nota2: numérico entero
+  nota3: numérico entero
+  suma: numérico entero
+  promedio: numérico real
+Comenzar
+  mostrar("Ingrese 3 notas para calcular su promedio por favor")
+  leer(nota1)
+  leer(nota2)
+  leer(nota3)
+
+  suma = nota1 + nota2 + nota3
+  promedio = suma / 3
+
+  mostrar("Su promedio es: ", promedio)
+Fin

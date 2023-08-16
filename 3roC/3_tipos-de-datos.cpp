@@ -1,12 +1,20 @@
 #include <iostream>
-
 using namespace std;
-int main() {
-  int entero;
-  float real;
-  bool booleano;
-  char caracter;
-  string cadena;
+
+
+int main()
+{
+  // esto es un comentario de línea. La computadora no ejecuta el codigo luego de encontrar "//". Tambien existen los comentarios multilinea, con los caracteres "/*" para abrir, y los caracteres "*/" para terminar. Ejemplo:
+
+  /* Este es un comentario multilínea,
+  y la computadora lo ignora. :)
+  */
+
+  int entero; // númerico entero
+  float real; // númerico real
+  bool booleano; // booleano
+  char caracter; // caracter
+  string cadena; // string
 
   cout << "Ingresa un numero entero: ";
   cin >> entero;
