@@ -1,8 +1,3 @@
-/*
-Recuerden que pueden comentar partes enteras del codigo para que la computadora no las ejecute, como este comentario :)
-*/
-
-
 // number
 let miNumero; // declaramos una variable
 miNumero = 5; // le asignamos 5
@@ -37,6 +32,7 @@ alert(texto + otro) // concatenacion
 
 // condiciones
 alert(texto == otro) // son iguales?
+alert(texto != otro) // son diferentes?
 
 // acceder a los caracteres
 let primeraLetra = texto[0]; // declaramos la variable primeraLetra. Recordemos que podemos acceder a un caracter de un string indicando la posicion, iniciando desde la posicion 0. Cual es la letra en la posicion 0 de la variable texto? :)
@@ -56,3 +52,21 @@ if (miBooleano == true) {
 }else{
   alert("miBooleano tiene el valor false!");
 }
+
+// operadores lógicos
+
+// operador lógico NO (Negación lógica. Si el valor era verdadero, retorna falso. Si era falso, retorna verdadero)
+alert(!true);  // false
+alert(!false); // true
+
+// operador lógico Y (Conjunción lógica. Retorna verdadero solo si ambos valores son verdaderos. Es decir, si alguno de ellos es falso, entonces retornará falso)
+alert(true && true);   // true
+alert(true && false);  // false
+alert(false && true);  // false
+alert(false && false); // false
+
+// operador lógico O (Disyunción lógica. Retorna verdadero si al menos uno de los valores es verdadero. Para que retorne falso, ambas valores deben ser falsos)
+alert(true || true);   // true
+alert(true || false);  // true
+alert(false || true);  // true
+alert(false || false); // false
