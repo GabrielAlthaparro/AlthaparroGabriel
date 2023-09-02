@@ -1,0 +1,46 @@
+Programa promedio
+Variables
+  nota1: numérico entero
+  nota2: numérico entero
+  nota3: numérico entero
+  promedio: numérico real
+Comenzar
+  mostrar("Ingrese la primer nota")
+  leer(nota1)
+  mostrar("Ingrese la segunda nota")
+  leer(nota2)
+  mostrar("Ingrese la tercera nota")
+  leer(nota3)
+
+  promedio <= (nota1 + nota2 + nota3) / 3
+
+  si promedio < 4 entonces
+    mostrar("Has aplazado!")
+  finsi
+
+  si promedio >= 4 y promedio < 7 entonces
+    mostrar("Has desaprobado!")
+  finsi
+
+  si promedio >= 7 entonces
+    mostrar("Has aprobado!")
+  finsi
+Fin
+
+
+
+Otra forma de hacer la ultima parte (la de los si-entonces) es usar si-entonces anidados (es decir, uno dentro de otro):
+
+si promedio < 4 entonces
+  mostrar("Has aplazado!")
+sino
+  // si el programa llega a esta parte es porque la condición del primer si fue falsa, entonces ya sabemos que promedio >= 4
+  si promedio < 7 entonces
+    mostrar("Has desaprobado!")
+  sino
+    mostrar("Has aprobado!")
+  finsi
+finsi
+
+De esta forma nos ahorramos preguntar por algunas condiciones que ya sabemos por descarte en base a las respuestas de
+las condiciones anteriores
