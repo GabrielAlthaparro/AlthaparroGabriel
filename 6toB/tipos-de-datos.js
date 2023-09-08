@@ -1,3 +1,8 @@
+/*
+link de página para programar en javascript (programiz):
+https://www.programiz.com/javascript/online-compiler/
+*/
+
 // number
 alert("number:");
 let miNumero; // declaramos una variable
