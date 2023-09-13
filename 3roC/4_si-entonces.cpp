@@ -4,7 +4,7 @@ Estructura si-entonces. Hay 2 formas de utilizarla, dependendiendo de la lógica
 1)
 si CONDICION entonces
   ------
-  ------ // codigo a ejecutar si la condición fue verdadera
+  ------ // código a ejecutar si la condición fue verdadera
   ------
 finsi
 
@@ -14,15 +14,15 @@ Si la condicion es verdadera, se ejecuta el bloque de instrucciones dentro del s
 2)
 si CONDICION entonces
   ------
-  ------ // codigo a ejecutar si la condición fue verdadera
+  ------ // código a ejecutar si la condición fue verdadera
   ------
 sino
   ------
-  ------ // codigo a ejecutar si la condición fue falsa
+  ------ // código a ejecutar si la condición fue falsa
   ------
 finsi
 
-Si la condición es verdadera, se ejecuta el bloque de instrucciones dentro del si-sino, y, luego, se "saltan" todas las instrucciones que estan entre el sino-finsi. Por el contrario, si la condición fue falsa, se "saltan" las instrucciones que se encuentran entre el si-sino, y se ejecutan las instrucciones del bloque sino-finsi. Notar que SIEMPRE alguno de las 2 bloques de instrucciones (si-sino, sino-finsi) se ejecutará.
+Si la condición es verdadera, se ejecuta el bloque de instrucciones dentro del si-sino, y, luego, se "saltan" todas las instrucciones que estan entre el sino-finsi. Por el contrario, si la condición es falsa, se "saltan" las instrucciones que se encuentran entre el si-sino, y se ejecutan las instrucciones del bloque sino-finsi. Notar que SIEMPRE alguno de las 2 bloques de instrucciones (si-sino, sino-finsi) se ejecutará.
 */
 
 #include <iostream>
@@ -33,15 +33,15 @@ int main() {
   // 1)
 
   if (/*condicion*/){
-    // codigo a ejecutar si la condición fue verdadera
+    // código a ejecutar si la condición fue verdadera
   }
 
 
   // 2)
   if (/*condicion*/) {
-    // codigo a ejecutar si la condición fue verdadera
+    // código a ejecutar si la condición fue verdadera
   } else {
-    // codigo a ejecutar si la condición fue falsa
+    // código a ejecutar si la condición fue falsa
   }
   
   
