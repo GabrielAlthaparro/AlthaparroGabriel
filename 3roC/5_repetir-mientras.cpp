@@ -5,7 +5,7 @@ repetir
   ------
   ------
   ------
-mientras que CONDICION
+mientras CONDICION
 
 
 
