@@ -2,7 +2,7 @@ Programa numeroMayor
 Variables
   n1, n2, n3: numérico entero
 Comenzar
-  mostrar("Ingrese 3 números enteros por favor: ")
+  mostrar("Ingrese 3 números enteros: ")
   leer(n1)
   leer(n2)
   leer(n3)
@@ -12,6 +12,7 @@ Comenzar
       mostrar(n1)
     sino
       mostrar(n3)
+    finsi
   sino
     si n2 > n3
       mostrar(n2)
