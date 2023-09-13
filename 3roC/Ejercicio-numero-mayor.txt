@@ -1,0 +1,22 @@
+Programa numeroMayor
+Variables
+  n1, n2, n3: numérico entero
+Comenzar
+  mostrar("Ingrese 3 números enteros por favor: ")
+  leer(n1)
+  leer(n2)
+  leer(n3)
+
+  si n1 > n2 entonces
+    si n1 > n3 entonces
+      mostrar(n1)
+    sino
+      mostrar(n3)
+  sino
+    si n2 > n3
+      mostrar(n2)
+    sino
+      mostrar(n3)
+    finsi
+  finsi
+Fin

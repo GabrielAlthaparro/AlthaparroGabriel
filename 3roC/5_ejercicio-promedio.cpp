@@ -29,8 +29,7 @@ int main()
   if (promedio >= 7) {
     cout << "Has aprobado!";
   } else {
-    if (promedio >= 4)
-    {
+    if (promedio >= 4) {
       cout << "Has desaprobado!";
     } else {
       cout << "Has aplazado!";
