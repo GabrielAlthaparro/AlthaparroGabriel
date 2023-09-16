@@ -1,0 +1,13 @@
+Programa tablaDeMultiplicar
+Variables
+    cont, num: numérico entero
+Comenzar
+    mostrar("Ingrese un número por favor: ")
+    leer(num)
+    cont <= 0
+
+    repetir
+        mostrar(num, " x ", cont, " = ", num * cont)
+        cont <= cont + 1
+    mientras cont <= 10
+Fin
