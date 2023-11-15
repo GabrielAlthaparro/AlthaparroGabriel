@@ -84,7 +84,7 @@ miVariable = input("Texto que se muestra al usuario para que ingrese algo")
 # Esto asignará a miVariable el valor que ingresemos por teclado. El tipo de dato que es leído SIEMPRE será un string
 
 # La instruccion de mostrar (para mostrar algo por pantalla) es:
-print(miVariable); # en este caso, estamos mostrando lo que ingresamos anteriormente :)
+print(miVariable) # en este caso, estamos mostrando lo que ingresamos anteriormente :)
 
 # estructura de decisión (si-entonces):
 if 10 == 5: # el número 10 es IGUAL al número 5?

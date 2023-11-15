@@ -48,16 +48,16 @@ int main() {
     if (contador % 2 == 0) { // si contador es un número par
       contador = contador - 3;
     } else {
-      contador = contador - 1;
+      contador = contador + 1;
     }
 
     suma = suma + contador;
-    if (suma > 200){
+    if (suma > 150){
       salir = true;
     }
   }
-  cout << suma << endl;
-  cout << contador << endl;
+  // cout << suma << endl;
+  // cout << contador << endl;
   
   return 0;
 }
