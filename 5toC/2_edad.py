@@ -14,7 +14,7 @@ Comenzar
     mostrar("Sos mayor de edad")
   sino
     mostrar("Sos menor de edad")
-  fin
+  finsi
 Fin
 
 

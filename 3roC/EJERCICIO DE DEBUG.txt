@@ -1,0 +1,22 @@
+Realizar un debug del siguiente programa, mostrando los valores de cada variable, y los textos mostrados por pantalla (lo mismo que venimos haciendo en clase):
+
+Variables
+  i: número entero
+  j: número entero
+  esPrimo: boolean
+
+Comenzar
+  para i desde 2 hasta 6 hacer
+    esPrimo <= true
+    para j desde 2 hasta i-1 hacer
+      si i % j == 0 entonces
+        esPrimo <= false
+      finsi
+    finpara
+    si esPrimo entonces
+      mostrar(i, " es un número primo")
+    finsi
+  finpara
+Fin
+
+Cualquier consulta sobre esto o sobre los temas de la evaluación me pueden enviar por la plataforma o por mail. Nos vemos la semana que viene!

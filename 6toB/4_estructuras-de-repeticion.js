@@ -89,7 +89,7 @@ do {
 
 
 /*
-3) estructura mientras-hacer (do-while)
+3) estructura mientras-hacer (while)
 
 Estructura:
 
