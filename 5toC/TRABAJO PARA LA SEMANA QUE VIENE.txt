@@ -2,7 +2,7 @@ Hola! El trabajo constará de 2 ejercicios a realizar en python con los temas vi
 Variables
 Tipos de datos
 Condiciones
-Estructura de desición (si-entonces)
+Estructura de decisión (si-entonces)
 Estructuras de repetición (while y for)
 
 Cualquier consulta me pueden enviar mensaje al mail gabriel.altha@gmail.com
